@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace PotterCart_Domain
+﻿namespace PotterCart_Domain
 {
-    public class CartErrorCode
+    public enum CartErrorCode
     {
-        public static Enum QtyLessThanOrEqualToZero { get; set; }
+        QtyLessThanOrEqualToZero
     }
 }
